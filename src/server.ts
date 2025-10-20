@@ -1,6 +1,5 @@
 import { createServer } from 'http';
-// import app from './app.js';
-import app from './app';
+import app from './app.js';
 import { appConfig } from './config/appConfig/app.config';
 import { consoleLogger } from './utils/logs/logger.util';
 import { connectDB } from './config/db/db';
