@@ -9,10 +9,6 @@ public
 # Environment variables
 .env
 
-# Logs
-*.log
-logs/
-npm-debug.log*
 
 # OS-specific files
 .DS_Store

@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
-import { consoleLogger } from '../../utils/logs/logger.util';
 import { appConfig } from '../appConfig/app.config';
 import dotenv from 'dotenv';
+import { consoleLogger } from '../../utils/logs/logger.util';
 import UserModel from '../../features/user/models/user.schema';
 import CourseModel from '../../features/course/models/course.schema';
 import CategoryModel from '../../features/category/models/category.schema';
