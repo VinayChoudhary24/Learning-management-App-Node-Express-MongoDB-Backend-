@@ -12,7 +12,7 @@ const server = createServer(app);
 
 // const port = appConfig.port as number;
 // const host = appConfig.host as string;
-const port: number = process.env.PORT ? Number(process.env.PORT) : Number(appConfig.port) || 8004;
+const port: number = 8004;
 // Always bind to 0.0.0.0 (Render requires this)
 const host: string = '0.0.0.0';
 
