@@ -10,8 +10,11 @@ import { connectDB } from './config/db/db';
 
 const server = createServer(app);
 
-const port = appConfig.port as number;
-const host = appConfig.host as string;
+// const port = appConfig.port as number;
+// const host = appConfig.host as string;
+const port: number = process.env.PORT ? Number(process.env.PORT) : Number(appConfig.port) || 8004;
+// Always bind to 0.0.0.0 (Render requires this)
+const host: string = '0.0.0.0';
 
 const startServer = async () => {
   try {
@@ -31,7 +34,7 @@ const startServer = async () => {
     server.listen(port, host, () => {
       consoleLogger.debug({
         service: appConfig.name,
-        status: `running at http://${appConfig.host}:${appConfig.port}`,
+        status: `running at http://${host}:${port}`,
         MongoDB: `Connected to DB`,
       });
     });
