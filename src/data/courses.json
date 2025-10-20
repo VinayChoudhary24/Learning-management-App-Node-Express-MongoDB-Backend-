@@ -1,0 +1,578 @@
+[
+  {
+    "title": "Full Stack Web Development",
+    "description": "Learn HTML, CSS, JavaScript, Node.js, and MongoDB to build scalable full stack web applications.",
+    "price": 19900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_1>",
+    "category": "Web Development",
+    "level": 1,
+    "language": "English",
+    "duration": 40,
+    "tags": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+    "isFeatured": true
+  },
+  {
+    "title": "React.js Mastery",
+    "description": "Master React.js with hooks, context API, Redux, and build modern single-page applications.",
+    "price": 14900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_2>",
+    "category": "Web Development",
+    "level": 2,
+    "language": "English",
+    "duration": 32,
+    "tags": ["React", "Redux", "Hooks", "Context API", "SPA"],
+    "isFeatured": false
+  },
+  {
+    "title": "Vue.js Complete Guide",
+    "description": "Build dynamic user interfaces with Vue.js 3, Vuex, Vue Router, and composition API.",
+    "price": 12900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/11035366/pexels-photo-11035366.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_3>",
+    "category": "Web Development",
+    "level": 2,
+    "language": "English",
+    "duration": 28,
+    "tags": ["Vue.js", "Vuex", "Vue Router", "Composition API"],
+    "isFeatured": false
+  },
+  {
+    "title": "Advanced CSS & Sass",
+    "description": "Master advanced CSS techniques, animations, Flexbox, Grid, and Sass preprocessor.",
+    "price": 9900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/11035386/pexels-photo-11035386.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_4>",
+    "category": "Web Development",
+    "level": 2,
+    "language": "English",
+    "duration": 24,
+    "tags": ["CSS", "Sass", "Flexbox", "Grid", "Animations"],
+    "isFeatured": false
+  },
+  {
+    "title": "TypeScript for Web Developers",
+    "description": "Learn TypeScript fundamentals and integrate it with modern web frameworks for type-safe development.",
+    "price": 11900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1605606722759-77da0b2f3d7d?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_5>",
+    "category": "Web Development",
+    "level": 2,
+    "language": "English",
+    "duration": 20,
+    "tags": ["TypeScript", "JavaScript", "Type Safety", "ES6+"],
+    "isFeatured": false
+  },
+  {
+    "title": "Next.js & Server-Side Rendering",
+    "description": "Build production-ready applications with Next.js, SSR, SSG, API routes, and deployment.",
+    "price": 17900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1672268930923-07278055b1bb?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_6>",
+    "category": "Web Development",
+    "level": 3,
+    "language": "English",
+    "duration": 36,
+    "tags": ["Next.js", "SSR", "SSG", "React", "Vercel"],
+    "isFeatured": false
+  },
+  {
+    "title": "Data Structures Fundamentals",
+    "description": "Master arrays, linked lists, stacks, queues, trees, and graphs with hands-on implementation.",
+    "price": 13900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1740908900846-4bbd4f22c975?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_7>",
+    "category": "Data Structures & Algorithms",
+    "level": 1,
+    "language": "English",
+    "duration": 35,
+    "tags": ["Arrays", "Linked Lists", "Trees", "Graphs", "Stacks"],
+    "isFeatured": true
+  },
+  {
+    "title": "Algorithm Design & Analysis",
+    "description": "Learn algorithm design patterns, complexity analysis, and optimization techniques.",
+    "price": 15900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/17484901/pexels-photo-17484901.png?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_8>",
+    "category": "Data Structures & Algorithms",
+    "level": 2,
+    "language": "English",
+    "duration": 42,
+    "tags": ["Algorithms", "Big O", "Optimization", "Design Patterns"],
+    "isFeatured": false
+  },
+  {
+    "title": "Dynamic Programming Mastery",
+    "description": "Solve complex problems using dynamic programming techniques and memoization strategies.",
+    "price": 14900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_9>",
+    "category": "Data Structures & Algorithms",
+    "level": 3,
+    "language": "English",
+    "duration": 30,
+    "tags": ["Dynamic Programming", "Memoization", "Recursion", "Optimization"],
+    "isFeatured": false
+  },
+  {
+    "title": "Competitive Programming Bootcamp",
+    "description": "Prepare for coding competitions with advanced problem-solving and speed optimization.",
+    "price": 18900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_10>",
+    "category": "Data Structures & Algorithms",
+    "level": 3,
+    "language": "English",
+    "duration": 50,
+    "tags": ["Competitive Programming", "Problem Solving", "Contests", "Speed Coding"],
+    "isFeatured": false
+  },
+  {
+    "title": "Graph Algorithms Deep Dive",
+    "description": "Explore BFS, DFS, shortest path algorithms, minimum spanning trees, and network flow.",
+    "price": 16900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/6203473/pexels-photo-6203473.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_1>",
+    "category": "Data Structures & Algorithms",
+    "level": 3,
+    "language": "English",
+    "duration": 38,
+    "tags": ["Graphs", "BFS", "DFS", "Dijkstra", "MST"],
+    "isFeatured": false
+  },
+  {
+    "title": "Coding Interview Preparation",
+    "description": "Ace technical interviews at top tech companies with leetcode patterns and system design basics.",
+    "price": 19900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/5598283/pexels-photo-5598283.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_2>",
+    "category": "Data Structures & Algorithms",
+    "level": 2,
+    "language": "English",
+    "duration": 45,
+    "tags": ["Interview Prep", "LeetCode", "Problem Solving", "FAANG"],
+    "isFeatured": false
+  },
+  {
+    "title": "Introduction to Artificial Intelligence",
+    "description": "Learn AI fundamentals including search algorithms, knowledge representation, and reasoning.",
+    "price": 17900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/8849282/pexels-photo-8849282.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_3>",
+    "category": "Artificial Intelligence",
+    "level": 1,
+    "language": "English",
+    "duration": 40,
+    "tags": ["AI Basics", "Search Algorithms", "Logic", "Knowledge Representation"],
+    "isFeatured": true
+  },
+  {
+    "title": "Natural Language Processing",
+    "description": "Build NLP applications with tokenization, sentiment analysis, transformers, and LLMs.",
+    "price": 21900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1620969427101-7a2bb6d83273?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_4>",
+    "category": "Artificial Intelligence",
+    "level": 2,
+    "language": "English",
+    "duration": 48,
+    "tags": ["NLP", "Transformers", "BERT", "Sentiment Analysis", "LLMs"],
+    "isFeatured": false
+  },
+  {
+    "title": "Computer Vision with Deep Learning",
+    "description": "Master image processing, CNNs, object detection, and image segmentation techniques.",
+    "price": 20900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/17485609/pexels-photo-17485609.png?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_5>",
+    "category": "Artificial Intelligence",
+    "level": 2,
+    "language": "English",
+    "duration": 44,
+    "tags": ["Computer Vision", "CNN", "Object Detection", "Image Processing"],
+    "isFeatured": false
+  },
+  {
+    "title": "Reinforcement Learning Fundamentals",
+    "description": "Learn Q-learning, policy gradients, and build intelligent agents for game environments.",
+    "price": 22900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1625670413987-0ae649494c61?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_6>",
+    "category": "Artificial Intelligence",
+    "level": 3,
+    "language": "English",
+    "duration": 52,
+    "tags": ["Reinforcement Learning", "Q-Learning", "Policy Gradients", "Agents"],
+    "isFeatured": false
+  },
+  {
+    "title": "AI Ethics & Responsible AI",
+    "description": "Understand ethical implications, bias mitigation, and responsible deployment of AI systems.",
+    "price": 12900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1623763641878-30be330e0bad?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_7>",
+    "category": "Artificial Intelligence",
+    "level": 1,
+    "language": "English",
+    "duration": 20,
+    "tags": ["AI Ethics", "Bias", "Fairness", "Responsible AI"],
+    "isFeatured": false
+  },
+  {
+    "title": "Generative AI & Large Language Models",
+    "description": "Explore GPT, diffusion models, prompt engineering, and building AI-powered applications.",
+    "price": 24900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/17485738/pexels-photo-17485738.png?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_8>",
+    "category": "Artificial Intelligence",
+    "level": 2,
+    "language": "English",
+    "duration": 38,
+    "tags": ["Generative AI", "LLMs", "GPT", "Prompt Engineering", "Diffusion Models"],
+    "isFeatured": false
+  },
+  {
+    "title": "Machine Learning Foundations",
+    "description": "Master supervised and unsupervised learning with linear regression, decision trees, and clustering.",
+    "price": 16900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/18069813/pexels-photo-18069813.png?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_9>",
+    "category": "Machine Learning",
+    "level": 1,
+    "language": "English",
+    "duration": 42,
+    "tags": ["ML Basics", "Regression", "Classification", "Clustering", "Scikit-learn"],
+    "isFeatured": false
+  },
+  {
+    "title": "Deep Learning Specialization",
+    "description": "Build neural networks, CNNs, RNNs, and deploy deep learning models with TensorFlow and PyTorch.",
+    "price": 23900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/8386435/pexels-photo-8386435.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_10>",
+    "category": "Machine Learning",
+    "level": 2,
+    "language": "English",
+    "duration": 55,
+    "tags": ["Deep Learning", "Neural Networks", "TensorFlow", "PyTorch", "CNN"],
+    "isFeatured": false
+  },
+  {
+    "title": "Feature Engineering & Model Selection",
+    "description": "Learn advanced feature engineering, model selection, hyperparameter tuning, and ensemble methods.",
+    "price": 15900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/4792287/pexels-photo-4792287.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_1>",
+    "category": "Machine Learning",
+    "level": 2,
+    "language": "English",
+    "duration": 32,
+    "tags": ["Feature Engineering", "Model Selection", "Ensemble", "Hyperparameter Tuning"],
+    "isFeatured": false
+  },
+  {
+    "title": "MLOps & Model Deployment",
+    "description": "Deploy ML models to production with MLflow, Docker, Kubernetes, and CI/CD pipelines.",
+    "price": 19900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1501526029524-a8ea952b15be?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_2>",
+    "category": "Machine Learning",
+    "level": 3,
+    "language": "English",
+    "duration": 40,
+    "tags": ["MLOps", "Deployment", "MLflow", "Docker", "Production"],
+    "isFeatured": false
+  },
+  {
+    "title": "Time Series Forecasting",
+    "description": "Master ARIMA, Prophet, LSTMs, and build forecasting models for business applications.",
+    "price": 17900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1717501218385-55bc3a95be94?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_3>",
+    "category": "Machine Learning",
+    "level": 2,
+    "language": "English",
+    "duration": 36,
+    "tags": ["Time Series", "Forecasting", "ARIMA", "Prophet", "LSTM"],
+    "isFeatured": false
+  },
+  {
+    "title": "Advanced Machine Learning with Python",
+    "description": "Explore advanced algorithms including XGBoost, LightGBM, stacking, and AutoML techniques.",
+    "price": 21900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/11035474/pexels-photo-11035474.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_4>",
+    "category": "Machine Learning",
+    "level": 3,
+    "language": "English",
+    "duration": 48,
+    "tags": ["Advanced ML", "XGBoost", "LightGBM", "AutoML", "Stacking"],
+    "isFeatured": false
+  },
+  {
+    "title": "Flutter Mobile Development",
+    "description": "Build beautiful cross-platform mobile apps with Flutter, Dart, and state management.",
+    "price": 18900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/1181216/pexels-photo-1181216.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_5>",
+    "category": "Mobile App Development",
+    "level": 1,
+    "language": "English",
+    "duration": 45,
+    "tags": ["Flutter", "Dart", "Cross-Platform", "Mobile", "State Management"],
+    "isFeatured": false
+  },
+  {
+    "title": "React Native Complete Course",
+    "description": "Create native mobile apps for iOS and Android using React Native and Expo.",
+    "price": 17900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/33440527/pexels-photo-33440527.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_6>",
+    "category": "Mobile App Development",
+    "level": 1,
+    "language": "English",
+    "duration": 42,
+    "tags": ["React Native", "Expo", "iOS", "Android", "JavaScript"],
+    "isFeatured": false
+  },
+  {
+    "title": "iOS Development with Swift",
+    "description": "Master Swift programming and build native iOS apps with UIKit and SwiftUI.",
+    "price": 20900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_7>",
+    "category": "Mobile App Development",
+    "level": 2,
+    "language": "English",
+    "duration": 50,
+    "tags": ["iOS", "Swift", "SwiftUI", "UIKit", "Xcode"],
+    "isFeatured": false
+  },
+  {
+    "title": "Android Development with Kotlin",
+    "description": "Build modern Android apps with Kotlin, Jetpack Compose, and Material Design.",
+    "price": 19900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1588864721034-4afdb05a5799?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_8>",
+    "category": "Mobile App Development",
+    "level": 2,
+    "language": "English",
+    "duration": 48,
+    "tags": ["Android", "Kotlin", "Jetpack Compose", "Material Design"],
+    "isFeatured": false
+  },
+  {
+    "title": "Mobile App UI/UX Design",
+    "description": "Design user-friendly mobile interfaces with Figma, user research, and prototyping.",
+    "price": 13900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_9>",
+    "category": "Mobile App Development",
+    "level": 1,
+    "language": "English",
+    "duration": 28,
+    "tags": ["UI/UX", "Figma", "Design", "Prototyping", "User Research"],
+    "isFeatured": false
+  },
+  {
+    "title": "Mobile App Testing & Deployment",
+    "description": "Learn testing strategies, App Store submission, and continuous deployment for mobile apps.",
+    "price": 14900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1712599609774-172848255a9f?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_10>",
+    "category": "Mobile App Development",
+    "level": 2,
+    "language": "English",
+    "duration": 30,
+    "tags": ["Testing", "Deployment", "App Store", "CI/CD", "Quality Assurance"],
+    "isFeatured": false
+  },
+  {
+    "title": "DevOps Fundamentals",
+    "description": "Learn CI/CD pipelines, version control with Git, and automation basics for modern development.",
+    "price": 15900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/11035393/pexels-photo-11035393.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_1>",
+    "category": "DevOps",
+    "level": 1,
+    "language": "English",
+    "duration": 35,
+    "tags": ["DevOps", "CI/CD", "Git", "Automation", "Jenkins"],
+    "isFeatured": false
+  },
+  {
+    "title": "Docker & Containerization",
+    "description": "Master Docker containers, images, volumes, networking, and Docker Compose for microservices.",
+    "price": 16900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/1427107/pexels-photo-1427107.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_2>",
+    "category": "DevOps",
+    "level": 2,
+    "language": "English",
+    "duration": 32,
+    "tags": ["Docker", "Containers", "Microservices", "Docker Compose"],
+    "isFeatured": false
+  },
+  {
+    "title": "Kubernetes Orchestration",
+    "description": "Deploy and manage containerized applications at scale with Kubernetes and Helm.",
+    "price": 21900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1667372459510-55b5e2087cd0?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_3>",
+    "category": "DevOps",
+    "level": 3,
+    "language": "English",
+    "duration": 48,
+    "tags": ["Kubernetes", "K8s", "Orchestration", "Helm", "Containers"],
+    "isFeatured": false
+  },
+  {
+    "title": "AWS Cloud & DevOps",
+    "description": "Build scalable infrastructure on AWS with EC2, S3, Lambda, CloudFormation, and ECS.",
+    "price": 22900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.unsplash.com/photo-1649734926695-1b1664e98842?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_4>",
+    "category": "DevOps",
+    "level": 2,
+    "language": "English",
+    "duration": 52,
+    "tags": ["AWS", "Cloud", "EC2", "Lambda", "Infrastructure"],
+    "isFeatured": false
+  },
+  {
+    "title": "Infrastructure as Code with Terraform",
+    "description": "Automate infrastructure provisioning with Terraform across multiple cloud providers.",
+    "price": 18900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/17485631/pexels-photo-17485631.png?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_5>",
+    "category": "DevOps",
+    "level": 2,
+    "language": "English",
+    "duration": 38,
+    "tags": ["Terraform", "IaC", "Infrastructure", "Automation", "Cloud"],
+    "isFeatured": false
+  },
+  {
+    "title": "Monitoring & Observability",
+    "description": "Implement monitoring solutions with Prometheus, Grafana, ELK stack, and distributed tracing.",
+    "price": 17900,
+    "courseImg": {
+      "public_id": "",
+      "url": "https://images.pexels.com/photos/10932824/pexels-photo-10932824.jpeg?q=80&w=400&h=300&fit=crop"
+    },
+    "instructor": "<instructor_id_6>",
+    "category": "DevOps",
+    "level": 2,
+    "language": "English",
+    "duration": 36,
+    "tags": ["Monitoring", "Prometheus", "Grafana", "ELK", "Observability"],
+    "isFeatured": false
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "phoneCode": "+91",
+    "phone": "9876543210",
+    "email": "alice.johnson@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "phoneCode": "+91",
+    "phone": "9876543211",
+    "email": "bob.smith@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Charlie",
+    "lastName": "Brown",
+    "phoneCode": "+91",
+    "phone": "9876543212",
+    "email": "charlie.brown@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Diana",
+    "lastName": "Miller",
+    "phoneCode": "+91",
+    "phone": "9876543213",
+    "email": "diana.miller@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Ethan",
+    "lastName": "Williams",
+    "phoneCode": "+91",
+    "phone": "9876543214",
+    "email": "ethan.williams@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Fiona",
+    "lastName": "Davis",
+    "phoneCode": "+91",
+    "phone": "9876543215",
+    "email": "fiona.davis@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "George",
+    "lastName": "Wilson",
+    "phoneCode": "+91",
+    "phone": "9876543216",
+    "email": "george.wilson@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Hannah",
+    "lastName": "Taylor",
+    "phoneCode": "+91",
+    "phone": "9876543217",
+    "email": "hannah.taylor@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Ian",
+    "lastName": "Anderson",
+    "phoneCode": "+91",
+    "phone": "9876543218",
+    "email": "ian.anderson@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Julia",
+    "lastName": "Thomas",
+    "phoneCode": "+91",
+    "phone": "9876543219",
+    "email": "julia.thomas@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "Martinez",
+    "phoneCode": "+91",
+    "phone": "9876543220",
+    "email": "kevin.martinez@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Laura",
+    "lastName": "Lee",
+    "phoneCode": "+91",
+    "phone": "9876543221",
+    "email": "laura.lee@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Harris",
+    "phoneCode": "+91",
+    "phone": "9876543222",
+    "email": "michael.harris@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Nina",
+    "lastName": "Clark",
+    "phoneCode": "+91",
+    "phone": "9876543223",
+    "email": "nina.clark@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Oscar",
+    "lastName": "Lewis",
+    "phoneCode": "+91",
+    "phone": "9876543224",
+    "email": "oscar.lewis@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Paula",
+    "lastName": "Walker",
+    "phoneCode": "+91",
+    "phone": "9876543225",
+    "email": "paula.walker@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Quentin",
+    "lastName": "Hall",
+    "phoneCode": "+91",
+    "phone": "9876543226",
+    "email": "quentin.hall@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Rachel",
+    "lastName": "Allen",
+    "phoneCode": "+91",
+    "phone": "9876543227",
+    "email": "rachel.allen@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Sam",
+    "lastName": "Young",
+    "phoneCode": "+91",
+    "phone": "9876543228",
+    "email": "sam.young@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+  {
+    "firstName": "Tina",
+    "lastName": "King",
+    "phoneCode": "+91",
+    "phone": "9876543229",
+    "email": "tina.king@example.com",
+    "password": "Password@123",
+    "role": "student"
+  },
+
+  {
+    "firstName": "Victor",
+    "lastName": "Scott",
+    "phoneCode": "+91",
+    "phone": "9876543230",
+    "email": "victor.scott@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "Wendy",
+    "lastName": "Green",
+    "phoneCode": "+91",
+    "phone": "9876543231",
+    "email": "wendy.green@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "Xavier",
+    "lastName": "Baker",
+    "phoneCode": "+91",
+    "phone": "9876543232",
+    "email": "xavier.baker@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "Yara",
+    "lastName": "Nelson",
+    "phoneCode": "+91",
+    "phone": "9876543233",
+    "email": "yara.nelson@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "Zane",
+    "lastName": "Carter",
+    "phoneCode": "+91",
+    "phone": "9876543234",
+    "email": "zane.carter@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "Amelia",
+    "lastName": "Mitchell",
+    "phoneCode": "+91",
+    "phone": "9876543235",
+    "email": "amelia.mitchell@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "Brian",
+    "lastName": "Perez",
+    "phoneCode": "+91",
+    "phone": "9876543236",
+    "email": "brian.perez@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "Clara",
+    "lastName": "Roberts",
+    "phoneCode": "+91",
+    "phone": "9876543237",
+    "email": "clara.roberts@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Evans",
+    "phoneCode": "+91",
+    "phone": "9876543238",
+    "email": "david.evans@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "Ella",
+    "lastName": "Turner",
+    "phoneCode": "+91",
+    "phone": "9876543239",
+    "email": "ella.turner@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  },
+  {
+    "firstName": "Frank",
+    "lastName": "Hill",
+    "phoneCode": "+91",
+    "phone": "9876543240",
+    "email": "frank.hill@example.com",
+    "password": "Password@123",
+    "role": "instructor"
+  }
+]

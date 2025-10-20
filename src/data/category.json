@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Web Development",
+    "description": "Learn HTML, CSS, JavaScript, and modern frameworks to build interactive websites.",
+    "isFeatured": true,
+    "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?q=80&w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Data Structures & Algorithms",
+    "description": "Master problem-solving skills and coding interview preparation with DSA.",
+    "isFeatured": false,
+    "image": "https://images.pexels.com/photos/17483907/pexels-photo-17483907.png?q=80&w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "description": "Explore AI concepts including search, logic, and intelligent systems.",
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Machine Learning",
+    "description": "Learn supervised, unsupervised, and deep learning algorithms with practical projects.",
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?q=80&w=400&h=300&fit=crop"
+  },
+  {
+    "name": "Mobile App Development",
+    "description": "Develop native and cross-platform mobile apps using Flutter, React Native, and more.",
+    "isFeatured": false,
+    "image": "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?q=80&w=400&h=300&fit=crop"
+  },
+  {
+    "name": "DevOps",
+    "description": "Automate CI/CD pipelines, containerization with Docker & Kubernetes, and infrastructure as code.",
+    "isFeatured": true,
+    "image": "https://images.unsplash.com/photo-1667372335937-d03be6fb0a9c?q=80&w=400&h=300&fit=crop"
+  }
+]
