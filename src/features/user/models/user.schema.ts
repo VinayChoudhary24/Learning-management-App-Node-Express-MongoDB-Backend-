@@ -51,34 +51,36 @@ const userSchema = new mongoose.Schema(
     },
     phoneCode: {
       type: String,
-      required: [
-        function (this: any) {
-          // Only required for local auth, optional for OAuth
-          return this.authProvider === 'local';
-        },
-        'Phone code is required',
-      ],
+      default: '',
+      // required: [
+      //   function (this: any) {
+      //     // Only required for local auth, optional for OAuth
+      //     return this.authProvider === 'local';
+      //   },
+      //   'Phone code is required',
+      // ],
     },
     phone: {
       type: String,
-      required: [
-        function (this: any) {
-          // Only required for local auth, optional for OAuth
-          return this.authProvider === 'local';
-        },
-        'Phone number is required',
-      ],
-      validate: {
-        validator: function (this: any, value: string) {
-          if (this.authProvider === 'local') {
-            return require('validator').isMobilePhone(value);
-          }
-          return true; // skip validation for OAuth users
-        },
-        message: 'Please enter a valid phone number',
-      },
-      unique: true, // still want unique phones for local users
-      sparse: true,
+      default: '',
+      // required: [
+      //   function (this: any) {
+      //     // Only required for local auth, optional for OAuth
+      //     return this.authProvider === 'local';
+      //   },
+      //   'Phone number is required',
+      // ],
+      // validate: {
+      //   validator: function (this: any, value: string) {
+      //     if (this.authProvider === 'local') {
+      //       return require('validator').isMobilePhone(value);
+      //     }
+      //     return true; // skip validation for OAuth users
+      //   },
+      //   message: 'Please enter a valid phone number',
+      // },
+      // unique: true, // still want unique phones for local users
+      // sparse: true,
     },
     email: {
       type: String,

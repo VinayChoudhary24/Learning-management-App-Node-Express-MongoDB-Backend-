@@ -85,7 +85,7 @@ export const sendContactMail = async (req: Request, res: Response, next: NextFun
 
     res.status(200).json({
       success: true,
-      message: "Message sent successfully! We'll get back to you soon.",
+      message: "Message sent successfully! Don't forget to check your spam folder.",
     });
   } catch (error: any) {
     next(error);

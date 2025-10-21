@@ -26,11 +26,17 @@ export const sendVerificationOtp = async (req: Request, res: Response, next: Nex
     // send otp
     if (type === 'email') {
       await sendEmailOtp(value, otp);
+      res.status(200).json({
+        success: true,
+        message: `${type} OTP sent successfully. Don't forget to check your spam folder.`,
+      });
     } else {
       await sendSmsOtp(value, otp);
+      res.status(200).json({
+        success: true,
+        message: `${type} OTP sent successfully.`,
+      });
     }
-
-    res.status(200).json({ success: true, message: `${type} OTP sent successfully` });
   } catch (error: any) {
     next(error);
   }

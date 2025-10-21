@@ -210,7 +210,7 @@ export const forgetPassword = async (req: Request, res: Response, next: NextFunc
       await sendPasswordResetEmail(user, resetPasswordURL);
       res.status(200).json({
         success: true,
-        message: `Password reset link sent to ${user.email}`,
+        message: `Password reset link sent to ${user.email}.Don't forget to check your spam folder. `,
       });
     } catch (emailError) {
       user.resetPasswordToken = undefined;

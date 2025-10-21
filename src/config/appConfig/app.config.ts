@@ -17,6 +17,8 @@ const smtp_service = process.env.SMPT_SERVICE || 'fix SMTP Service';
 const defi_smtp_mail = process.env.DEFI_SMPT_MAIL || 'fix DEFI SMTP Mail';
 const defi_smtp_mail_pass = process.env.DEFI_SMPT_MAIL_PASSWORD || 'fix DEFI SMTP mail password';
 
+const sendgrid_api_key = process.env.SENDGRID_API_KEY || 'fix sendgrid API key';
+
 const frontendURL = process.env.FRONTEND_URL || 'http://localhost:5173';
 
 // GOOGLE CRED
@@ -50,6 +52,7 @@ const appConfig = {
   fast2SmsUrl,
   stripePublishableKey,
   stripeSecretKey,
+  sendgrid_api_key,
 };
 
 export { appConfig };
