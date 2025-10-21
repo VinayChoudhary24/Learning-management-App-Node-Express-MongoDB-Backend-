@@ -95,13 +95,13 @@
 //   await transporter.sendMail(mailOptions);
 // };
 import sgMail from '@sendgrid/mail';
-import path from 'path';
-import { fileURLToPath } from 'url';
+// import path from 'path';
+// import { fileURLToPath } from 'url';
 import { promises as fs } from 'fs';
 import { appConfig } from '../../config/appConfig/app.config.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = path.dirname(__filename);
 
 // // Set SendGrid API Key
 sgMail.setApiKey(appConfig.sendgrid_api_key);
@@ -110,9 +110,9 @@ sgMail.setApiKey(appConfig.sendgrid_api_key);
 export const sendPasswordResetEmail = async (user: any, resetPasswordURL: string) => {
   try {
     // Read the logo file and convert to base64
-    const logoPath = path.join(__dirname, 'logos/letter-d.png');
-    const logoBuffer = await fs.readFile(logoPath);
-    const logoBase64 = logoBuffer.toString('base64');
+    // const logoPath = path.join(__dirname, 'logos/letter-d.png');
+    // const logoBuffer = await fs.readFile(logoPath);
+    // const logoBase64 = logoBuffer.toString('base64');
 
     const mailOptions = {
       from: appConfig.defi_smtp_mail, // Must be a verified sender in SendGrid
@@ -169,7 +169,7 @@ export const sendPasswordResetEmail = async (user: any, resetPasswordURL: string
         <body>
             <div class="container">
                 <div class="header">
-                    <img class="logo" src="cid:defiLogo" alt="DEFI Logo">
+                    <img class="logo" src="http://cdn.mcauto-images-production.sendgrid.net/c026287495e59764/fb9d2c7c-8c48-4c22-8990-f7a933747d8e/512x512.png" alt="DEFI Logo">
                     <h1>Password Reset</h1>
                 </div>
                 <div class="content">
@@ -182,15 +182,15 @@ export const sendPasswordResetEmail = async (user: any, resetPasswordURL: string
         </body>
         </html>
     `,
-      attachments: [
-        {
-          filename: 'letter-d.png',
-          content: logoBase64,
-          type: 'image/png',
-          disposition: 'inline',
-          content_id: 'defiLogo',
-        },
-      ],
+      //   attachments: [
+      //     {
+      //       filename: 'letter-d.png',
+      //       content: logoBase64,
+      //       type: 'image/png',
+      //       disposition: 'inline',
+      //       content_id: 'defiLogo',
+      //     },
+      //   ],
     };
 
     await sgMail.send(mailOptions);
