@@ -6,6 +6,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const frontendUrl = appConfig.frontendURL;
+
 export const sendWelcomeEmail = async (user: any) => {
   const transporter = nodemailer.createTransport({
     service: appConfig.smtp_service,
@@ -186,7 +188,7 @@ export const sendWelcomeEmail = async (user: any) => {
                   </ul>
                   
                   <center>
-                      <a href="appConfig.frontend_url" || 'https://defi.com'}" class="cta-button">
+                      <a href="${frontendUrl}/courses" class="cta-button">
                           Start Learning Now →
                       </a>
                   </center>

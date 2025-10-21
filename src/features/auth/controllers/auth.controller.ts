@@ -18,6 +18,7 @@ import { generateAuthUrl, getUserInfoGoogle } from '../service/googleAuth.js';
 import { appConfig } from '../../../config/appConfig/app.config.js';
 import { getToken } from '../../../utils/getToken/getToken.util.js';
 
+const frontendUrl = appConfig.frontendURL;
 // Create event emitter instance
 const userEventEmitter = new EventEmitter();
 // Event handlers for background processing
@@ -205,7 +206,7 @@ export const forgetPassword = async (req: Request, res: Response, next: NextFunc
     // console.log('Generated reset token:', resetToken);
     try {
       // add a localhost URL for testing purposes i.e http://localhost:5173/reset-password
-      const resetPasswordURL = `http://localhost:5173/reset-password/${resetToken}`;
+      const resetPasswordURL = `${frontendUrl}/reset-password/${resetToken}`;
       await sendPasswordResetEmail(user, resetPasswordURL);
       res.status(200).json({
         success: true,
