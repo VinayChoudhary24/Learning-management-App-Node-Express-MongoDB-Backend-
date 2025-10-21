@@ -17,6 +17,9 @@ export const sendOtpEmail = async (email: any, otp: string) => {
         user: appConfig.defi_smtp_mail,
         pass: appConfig.defi_smtp_mail_pass,
       },
+      tls: {
+        rejectUnauthorized: false,
+      },
     });
 
     const mailOptions = {
