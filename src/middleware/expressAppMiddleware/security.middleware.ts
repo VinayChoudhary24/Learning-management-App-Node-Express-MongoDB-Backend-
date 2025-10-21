@@ -1,9 +1,9 @@
 import helmet from 'helmet';
 import compression from 'compression';
 import express from 'express';
-import cookieParser from "cookie-parser";
+import cookieParser from 'cookie-parser';
 import cors from 'cors';
-import { corsOptions } from '../../utils/cors/cors.util';
+import { corsOptions } from '../../utils/cors/cors.util.js';
 
 export const applySecurityMiddleware = (app: express.Application): void => {
   // Set security HTTP headers
@@ -15,4 +15,4 @@ export const applySecurityMiddleware = (app: express.Application): void => {
 
   // Enable resources compression
   app.use(compression());
-}
+};

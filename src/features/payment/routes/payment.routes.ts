@@ -1,7 +1,7 @@
 import express from 'express';
-import { jwtAuth } from '../../../middleware/jwt/authentication.middleware';
-import { createPaymentIntent } from '../controller/payment.controller';
-import { stripeWebhookHandler } from '../controller/stripeWebhook/webhook.controller';
+import { jwtAuth } from '../../../middleware/jwt/authentication.middleware.js';
+import { createPaymentIntent } from '../controller/payment.controller.js';
+import { stripeWebhookHandler } from '../controller/stripeWebhook/webhook.controller.js';
 const router = express.Router();
 
 // POST Routes

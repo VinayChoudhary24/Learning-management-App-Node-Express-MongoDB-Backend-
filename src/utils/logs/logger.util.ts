@@ -1,6 +1,6 @@
 import winston, { createLogger, format, transports } from 'winston';
 import 'winston-mongodb';
-import { appConfig } from '../../config/appConfig';
+import { appConfig } from '../../config/appConfig/app.config.js';
 // import dotenv from "dotenv";
 
 // Load environment variables from .env

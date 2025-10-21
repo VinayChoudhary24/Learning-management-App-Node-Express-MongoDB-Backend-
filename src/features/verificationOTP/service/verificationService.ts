@@ -1,6 +1,6 @@
-import { sendOtpEmail } from '../../../utils/emails/oneTimePassword.util';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
-import { sendOtpSms } from '../../../utils/sms/otp/sendMessage.util';
+import { sendOtpEmail } from '../../../utils/emails/oneTimePassword.util.js';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
+import { sendOtpSms } from '../../../utils/sms/otp/sendMessage.util.js';
 // import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
 
 export const sendEmailOtp = async (email: string, otp: string) => {

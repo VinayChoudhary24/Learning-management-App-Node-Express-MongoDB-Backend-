@@ -4,12 +4,12 @@ import {
   getUserDetails,
   sendContactMail,
   updateUserDetails,
-} from '../controllers/user.controller';
-import { jwtAuth } from '../../../middleware/jwt/authentication.middleware';
+} from '../controllers/user.controller.js';
+import { jwtAuth } from '../../../middleware/jwt/authentication.middleware.js';
 import {
   sendVerificationOtp,
   verifyOtp,
-} from '../../verificationOTP/controllers/verification.controller';
+} from '../../verificationOTP/controllers/verification.controller.js';
 
 const router = express.Router();
 

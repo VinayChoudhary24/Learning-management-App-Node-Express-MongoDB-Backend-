@@ -4,7 +4,7 @@ import dayjs from 'dayjs';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
-import { appConfig } from '../../../config/appConfig';
+import { appConfig } from '../../../config/appConfig/app.config.js';
 
 // STATUS
 const ACTIVE = 1;

@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { ErrorHandler } from '../../errors/errorHandler.util';
-import { appConfig } from '../../../config/appConfig';
+import { ErrorHandler } from '../../errors/errorHandler.util.js';
+import { appConfig } from '../../../config/appConfig/app.config.js';
 
 interface Fast2SmsResponse {
   return: boolean;

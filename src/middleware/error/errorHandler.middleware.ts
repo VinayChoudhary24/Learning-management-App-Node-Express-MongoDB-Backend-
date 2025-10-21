@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { ErrorHandler } from '../../utils/errors/errorHandler.util';
-import { errorLogger } from '../../utils/logs/logger.util';
+import { ErrorHandler } from '../../utils/errors/errorHandler.util.js';
+import { errorLogger } from '../../utils/logs/logger.util.js';
 import { Request, Response, NextFunction } from 'express';
 
 export const errorHandlerMiddleware: any = (

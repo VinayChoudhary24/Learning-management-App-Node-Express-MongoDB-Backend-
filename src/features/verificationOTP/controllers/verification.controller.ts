@@ -1,8 +1,8 @@
 import { NextFunction, Request, Response } from 'express';
-import { generateOtp, otpExpiry } from '../../../utils/otp/otp.util';
-import { createVerification, findVerification } from '../repository/verification.repository';
-import { sendEmailOtp, sendSmsOtp } from '../service/verificationService';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import { generateOtp, otpExpiry } from '../../../utils/otp/otp.util.js';
+import { createVerification, findVerification } from '../repository/verification.repository.js';
+import { sendEmailOtp, sendSmsOtp } from '../service/verificationService.js';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 
 export const sendVerificationOtp = async (req: Request, res: Response, next: NextFunction) => {
   try {

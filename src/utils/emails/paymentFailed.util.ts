@@ -1,5 +1,5 @@
 import nodemailer from 'nodemailer';
-import { appConfig } from '../../config/appConfig/app.config';
+import { appConfig } from '../../config/appConfig/app.config.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 

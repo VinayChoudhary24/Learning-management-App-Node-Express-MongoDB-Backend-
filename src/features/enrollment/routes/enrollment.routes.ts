@@ -1,6 +1,6 @@
 import express from 'express';
-import { jwtAuth } from '../../../middleware/jwt/authentication.middleware';
-import { createEnrollment, getEnrollment } from '../controller/enrollment.controller';
+import { jwtAuth } from '../../../middleware/jwt/authentication.middleware.js';
+import { createEnrollment, getEnrollment } from '../controller/enrollment.controller.js';
 
 const router = express.Router();
 

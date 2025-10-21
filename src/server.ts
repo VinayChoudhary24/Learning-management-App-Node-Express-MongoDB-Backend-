@@ -1,8 +1,8 @@
 import { createServer } from 'http';
 import app from './app.js';
-import { appConfig } from './config/appConfig/app.config';
-import { consoleLogger } from './utils/logs/logger.util';
-import { connectDB } from './config/db/db';
+import { appConfig } from './config/appConfig/app.config.js';
+import { consoleLogger } from './utils/logs/logger.util.js';
+import { connectDB } from './config/db/db.js';
 // import { connectRedis } from './config/redis/redisClient.js';
 // import { checkAndRecoverJobs } from './config/redis/redisCronRecovery/cron.recovery.js';
 // import { scheduleCronJobs } from './config/redis/redisScheduler/cron.scheduler.js';

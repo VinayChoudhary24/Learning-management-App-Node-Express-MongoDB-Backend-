@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
-import CourseModel from '../../course/models/course.schema';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
-import ModuleModel from '../models/module.schema';
+import CourseModel from '../../course/models/course.schema.js';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
+import ModuleModel from '../models/module.schema.js';
 
 export const createModulesAndAttachToCourse = async (courseId: string, modulesData: any[]) => {
   const session = await mongoose.startSession();

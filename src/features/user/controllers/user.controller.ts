@@ -1,11 +1,11 @@
 import { Request, Response, NextFunction } from 'express';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 import {
   getInternalUserDetailsRepo,
   getUserDetailsRepo,
   updateUserDetailsRepo,
-} from '../repository/user.repository';
-import { sendContactEmail } from '../../../utils/emails/ContactMail.util';
+} from '../repository/user.repository.js';
+import { sendContactEmail } from '../../../utils/emails/ContactMail.util.js';
 
 export const getUserDetails = async (req: Request, res: Response, next: NextFunction) => {
   console.log('Called getUserDetails controller');

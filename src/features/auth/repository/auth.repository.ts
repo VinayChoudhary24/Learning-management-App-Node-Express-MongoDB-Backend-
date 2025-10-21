@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import UserModel from '../../user/models/user.schema';
+import UserModel from '../../user/models/user.schema.js';
 import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 
 export const createNewUserRepo = async (user: any) => {

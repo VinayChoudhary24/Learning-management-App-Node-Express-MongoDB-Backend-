@@ -1,8 +1,8 @@
 import nodemailer from 'nodemailer';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { appConfig } from '../../config/appConfig/app.config';
-import { ErrorHandler } from '../errors/errorHandler.util';
+import { appConfig } from '../../config/appConfig/app.config.js';
+import { ErrorHandler } from '../errors/errorHandler.util.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

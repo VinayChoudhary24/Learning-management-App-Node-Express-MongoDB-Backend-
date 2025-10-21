@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import {
   handlePaymentIntentFailed,
   handlePaymentIntentSucceeded,
-} from '../../service/stripeWebhook/stripeWebhook';
+} from '../../service/stripeWebhook/stripeWebhook.js';
 
 dotenv.config();
 

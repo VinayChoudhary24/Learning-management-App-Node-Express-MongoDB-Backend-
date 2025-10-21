@@ -1,10 +1,10 @@
 import { Request, Response, NextFunction } from 'express';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 import {
   createEnrollmentRepo,
   getEnrollmentRepo,
   getUserCourseEnrollmentRepo,
-} from '../repository/enrollment.repository';
+} from '../repository/enrollment.repository.js';
 
 export const createEnrollment = async (req: Request, res: Response, next: NextFunction) => {
   // console.log('Called createEnrollment controller');

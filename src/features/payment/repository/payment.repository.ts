@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import PaymentModel from '../models/payment.schema';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import PaymentModel from '../models/payment.schema.js';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 
 export const createPaymentRepo = async (paymentDetails: any) => {
   try {

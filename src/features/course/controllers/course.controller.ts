@@ -1,11 +1,11 @@
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 import { Request, Response, NextFunction } from 'express';
 import {
   findAllCourses,
   findAllCoursesCount,
   findCourseById,
   findCourseWithModules,
-} from '../repository/course.repository';
+} from '../repository/course.repository.js';
 // import { findOrCreateReview } from '../repository/review.repository';
 
 export const getAllCourses = async (

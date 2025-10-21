@@ -1,10 +1,10 @@
 import mongoose from 'mongoose';
-import UserModel from '../../../user/models/user.schema';
-import { ErrorHandler } from '../../../../utils/errors/errorHandler.util';
-import EnrollmentModel from '../../../enrollment/models/enrollment.schema';
+import UserModel from '../../../user/models/user.schema.js';
+import { ErrorHandler } from '../../../../utils/errors/errorHandler.util.js';
+import EnrollmentModel from '../../../enrollment/models/enrollment.schema.js';
 import Stripe from 'stripe';
-import { createPaymentRepo } from '../../repository/payment.repository';
-import { appConfig } from '../../../../config/appConfig';
+import { createPaymentRepo } from '../../repository/payment.repository.js';
+import { appConfig } from '../../../../config/appConfig/app.config.js';
 
 const stripeSecretKey = appConfig.stripeSecretKey || process.env.STRIPE_SECRET_KEY;
 if (!stripeSecretKey) {

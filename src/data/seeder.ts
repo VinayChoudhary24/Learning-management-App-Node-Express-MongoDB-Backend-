@@ -2,9 +2,9 @@ import fs from 'fs';
 import bcrypt from 'bcryptjs';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import UserModel from '../features/user/models/user.schema';
-import CourseModel from '../features/course/models/course.schema';
-import CategoryModel from '../features/category/models/category.schema';
+import UserModel from '../features/user/models/user.schema.js';
+import CourseModel from '../features/course/models/course.schema.js';
+import CategoryModel from '../features/category/models/category.schema.js';
 
 // Load environment variables
 dotenv.config();

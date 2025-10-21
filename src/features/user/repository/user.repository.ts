@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
-import UserModel from '../models/user.schema';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
+import UserModel from '../models/user.schema.js';
 
 export const getUserDetailsRepo = async (userId: string) => {
   try {

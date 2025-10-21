@@ -1,9 +1,9 @@
 import Stripe from 'stripe';
-import { ErrorHandler } from '../../../../utils/errors/errorHandler.util';
-import { updateEnrollmentStatusAndPaymentDetailsRepo } from '../../../enrollment/repository/enrollment.repository';
-import { updateEnrollmentPaymentDetailsRepo } from '../../repository/payment.repository';
-import { sendPaymentConfirmationEmail } from '../../../../utils/emails/paymentConfirmation.util';
-import { sendPaymentFailedEmail } from '../../../../utils/emails/paymentFailed.util';
+import { ErrorHandler } from '../../../../utils/errors/errorHandler.util.js';
+import { updateEnrollmentStatusAndPaymentDetailsRepo } from '../../../enrollment/repository/enrollment.repository.js';
+import { updateEnrollmentPaymentDetailsRepo } from '../../repository/payment.repository.js';
+import { sendPaymentConfirmationEmail } from '../../../../utils/emails/paymentConfirmation.util.js';
+import { sendPaymentFailedEmail } from '../../../../utils/emails/paymentFailed.util.js';
 
 /**
  * Handle successful payment intent

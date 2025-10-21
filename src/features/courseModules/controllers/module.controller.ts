@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
-import dayjs from 'dayjs';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
-import { createModulesAndAttachToCourse } from '../repository/module.repository';
+// import dayjs from 'dayjs';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
+import { createModulesAndAttachToCourse } from '../repository/module.repository.js';
 
 export const createModuleForCourse = async (req: Request, res: Response, next: NextFunction) => {
   try {

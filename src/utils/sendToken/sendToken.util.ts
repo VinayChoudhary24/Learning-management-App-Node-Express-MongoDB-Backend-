@@ -1,4 +1,4 @@
-import { appConfig } from '../../config/appConfig';
+import { appConfig } from '../../config/appConfig/app.config.js';
 
 const time = Number(appConfig.cookieExpiresIN) || 1;
 

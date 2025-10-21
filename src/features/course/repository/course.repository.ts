@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import CourseModel from '../models/course.schema';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import CourseModel from '../models/course.schema.js';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 
 interface FindAllCoursesParams {
   limit: number;

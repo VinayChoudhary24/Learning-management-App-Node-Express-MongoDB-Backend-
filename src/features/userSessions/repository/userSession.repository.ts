@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import dayjs from 'dayjs';
-import UserSessionModel from '../models/userSession.schema';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import UserSessionModel from '../models/userSession.schema.js';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 
 export const createNewSessionRepo = async (newUser: any, ipAddress: any, userAgent: any) => {
   try {

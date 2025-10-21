@@ -1,9 +1,9 @@
 import { Request, Response, NextFunction } from 'express';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
-import { createStripePaymentIntent } from '../service/stripePayment/stripePayment';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
+import { createStripePaymentIntent } from '../service/stripePayment/stripePayment.js';
 import EventEmitter from 'events';
-import { errorLogger } from '../../../utils/logs/logger.util';
-import { updateEnrollmentPaymentIdRepo } from '../../enrollment/repository/enrollment.repository';
+import { errorLogger } from '../../../utils/logs/logger.util.js';
+import { updateEnrollmentPaymentIdRepo } from '../../enrollment/repository/enrollment.repository.js';
 
 // Create event emitter instance
 const paymentEventEmitter = new EventEmitter();

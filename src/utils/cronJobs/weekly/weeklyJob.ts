@@ -1,4 +1,4 @@
-import { jobsLogger } from '../../logs/logger.util';
+import { jobsLogger } from '../../logs/logger.util.js';
 import dayjs from 'dayjs';
 
 export const weeklyJobHandler = async (context?: { jobId?: string; runAtUnix?: number }) => {

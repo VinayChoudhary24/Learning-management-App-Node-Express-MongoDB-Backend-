@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { VerificationDocument, VerificationModel } from '../models/verification.schema';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import { VerificationDocument, VerificationModel } from '../models/verification.schema.js';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 
 // Create a new verification record
 export const createVerification = async (data: Partial<VerificationDocument>) => {

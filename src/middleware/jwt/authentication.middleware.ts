@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import { appConfig } from '../../config/appConfig/app.config';
-import { ErrorHandler } from '../../utils/errors/errorHandler.util';
+import { appConfig } from '../../config/appConfig/app.config.js';
+import { ErrorHandler } from '../../utils/errors/errorHandler.util.js';
 
 // Extend the Request interface
 declare global {

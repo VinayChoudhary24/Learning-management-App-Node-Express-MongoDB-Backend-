@@ -1,4 +1,4 @@
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 
 interface PricingDetails {
   subTotalAmount: number;

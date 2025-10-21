@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import CategoryModel from '../models/category.schema';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
+import CategoryModel from '../models/category.schema.js';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
 
 interface FindAllCategoriesParams {
   isLimitedData: string;

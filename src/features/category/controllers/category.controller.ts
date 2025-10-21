@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import { findAllCategories } from '../repository/category.repository';
+import { findAllCategories } from '../repository/category.repository.js';
 
 export const getAllCategories = async (
   req: Request,

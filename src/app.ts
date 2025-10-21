@@ -1,20 +1,20 @@
 import express, { Application } from 'express';
 // import session from 'express-session';
-import AuthRoutes from './features/auth/routes/auth.routes';
-import UserRoutes from './features/user/routes/user.routes';
-import CourseRoutes from './features/course/routes/course.routes';
-import CategoryRoutes from './features/category/routes/category.routes';
-import EnrollmentRoutes from './features/enrollment/routes/enrollment.routes';
-import PaymentRoutes from './features/payment/routes/payment.routes';
-import PaymentWebhooksRoutes from './features/payment/routes/webhook.routes';
+import AuthRoutes from './features/auth/routes/auth.routes.js';
+import UserRoutes from './features/user/routes/user.routes.js';
+import CourseRoutes from './features/course/routes/course.routes.js';
+import CategoryRoutes from './features/category/routes/category.routes.js';
+import EnrollmentRoutes from './features/enrollment/routes/enrollment.routes.js';
+import PaymentRoutes from './features/payment/routes/payment.routes.js';
+import PaymentWebhooksRoutes from './features/payment/routes/webhook.routes.js';
 // import CourseModulesRoutes from './features/courseModules/routes/module.routes';
 
-import { applyParsingMiddleware } from './middleware/expressAppMiddleware/parser.middleware';
-import { applySecurityMiddleware } from './middleware/expressAppMiddleware/security.middleware';
-import { errorHandlerMiddleware } from './middleware/error/errorHandler.middleware';
-import { notFoundMiddleware } from './middleware/error/notFound.middleware';
+import { applyParsingMiddleware } from './middleware/expressAppMiddleware/parser.middleware.js';
+import { applySecurityMiddleware } from './middleware/expressAppMiddleware/security.middleware.js';
+import { errorHandlerMiddleware } from './middleware/error/errorHandler.middleware.js';
+import { notFoundMiddleware } from './middleware/error/notFound.middleware.js';
 
-import healthCheckRouter from './config/health/health';
+import healthCheckRouter from './config/health/health.js';
 
 // import { BullMQAdapter } from '@bull-board/api/bullMQAdapter';
 // import { ExpressAdapter } from '@bull-board/express';

@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { appConfig } from '../../config/appConfig/app.config';
+import { appConfig } from '../../config/appConfig/app.config.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

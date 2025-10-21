@@ -1,13 +1,13 @@
 import mongoose from 'mongoose';
-import { appConfig } from '../appConfig/app.config';
+import { appConfig } from '../appConfig/app.config.js';
 import dotenv from 'dotenv';
-import { consoleLogger } from '../../utils/logs/logger.util';
-import UserModel from '../../features/user/models/user.schema';
-import CourseModel from '../../features/course/models/course.schema';
-import CategoryModel from '../../features/category/models/category.schema';
-import EnrollmentModel from '../../features/enrollment/models/enrollment.schema';
-import PaymentModel from '../../features/payment/models/payment.schema';
-import ModuleModel from '../../features/courseModules/models/module.schema';
+import { consoleLogger } from '../../utils/logs/logger.util.js';
+import UserModel from '../../features/user/models/user.schema.js';
+import CourseModel from '../../features/course/models/course.schema.js';
+import CategoryModel from '../../features/category/models/category.schema.js';
+import EnrollmentModel from '../../features/enrollment/models/enrollment.schema.js';
+import PaymentModel from '../../features/payment/models/payment.schema.js';
+import ModuleModel from '../../features/courseModules/models/module.schema.js';
 
 // Load environment variables from .env
 dotenv.config();

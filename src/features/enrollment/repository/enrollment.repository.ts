@@ -1,9 +1,9 @@
 import mongoose from 'mongoose';
-import UserModel from '../../user/models/user.schema';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
-import CourseModel from '../../course/models/course.schema';
-import { validateEnrollmentAmount } from '../service/validateEnrollmentAmount';
-import EnrollmentModel from '../models/enrollment.schema';
+import UserModel from '../../user/models/user.schema.js';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
+import CourseModel from '../../course/models/course.schema.js';
+import { validateEnrollmentAmount } from '../service/validateEnrollmentAmount.js';
+import EnrollmentModel from '../models/enrollment.schema.js';
 
 export const createEnrollmentRepo = async (userId: string, courseIds: string[]) => {
   try {

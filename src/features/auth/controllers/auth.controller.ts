@@ -6,17 +6,17 @@ import {
   createNewUserRepo,
   findUserForPasswordResetRepo,
   findUserRepo,
-} from '../repository/auth.repository';
-import { sendWelcomeEmail } from '../../../utils/emails/welcomeMail.util';
-import { errorLogger } from '../../../utils/logs/logger.util';
-import { createNewSessionRepo } from '../../userSessions/repository/userSession.repository';
-import { sendPasswordResetEmail } from '../../../utils/emails/passwordReset.util';
+} from '../repository/auth.repository.js';
+import { sendWelcomeEmail } from '../../../utils/emails/welcomeMail.util.js';
+import { errorLogger } from '../../../utils/logs/logger.util.js';
+// import { createNewSessionRepo } from '../../userSessions/repository/userSession.repository';
+import { sendPasswordResetEmail } from '../../../utils/emails/passwordReset.util.js';
 import crypto from 'crypto';
-import UserModel from '../../user/models/user.schema';
-import { generateAuthUrl, getUserInfoGoogle } from '../service/googleAuth';
-import { OAuth2Client } from 'google-auth-library';
-import { appConfig } from '../../../config/appConfig';
-import { getToken } from '../../../utils/getToken/getToken.util';
+// import UserModel from '../../user/models/user.schema';
+import { generateAuthUrl, getUserInfoGoogle } from '../service/googleAuth.js';
+// import { OAuth2Client } from 'google-auth-library';
+import { appConfig } from '../../../config/appConfig/app.config.js';
+import { getToken } from '../../../utils/getToken/getToken.util.js';
 
 // Create event emitter instance
 const userEventEmitter = new EventEmitter();

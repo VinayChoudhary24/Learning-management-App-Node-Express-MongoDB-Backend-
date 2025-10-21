@@ -1,6 +1,10 @@
 import express from 'express';
-import { jwtAuth } from '../../../middleware/jwt/authentication.middleware';
-import { getAllCourses, getCourseById, getCourseModules } from '../controllers/course.controller';
+import { jwtAuth } from '../../../middleware/jwt/authentication.middleware.js';
+import {
+  getAllCourses,
+  getCourseById,
+  getCourseModules,
+} from '../controllers/course.controller.js';
 
 const router = express.Router();
 

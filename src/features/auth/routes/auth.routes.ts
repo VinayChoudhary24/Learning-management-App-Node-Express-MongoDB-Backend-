@@ -7,9 +7,9 @@ import {
   userGoogleLogin,
   userLogin,
   userLogout,
-} from '../controllers/auth.controller';
-import { jwtAuth } from '../../../middleware/jwt/authentication.middleware';
-import { getUserCourseEnrollment } from '../../enrollment/controller/enrollment.controller';
+} from '../controllers/auth.controller.js';
+import { jwtAuth } from '../../../middleware/jwt/authentication.middleware.js';
+import { getUserCourseEnrollment } from '../../enrollment/controller/enrollment.controller.js';
 
 const router = express.Router();
 
