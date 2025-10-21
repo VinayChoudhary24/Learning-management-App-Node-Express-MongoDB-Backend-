@@ -7,7 +7,7 @@
     "dev": "nodemon src/server.ts",
     "start:dev": "tsc --noEmit && tsx src/server.ts",
     "start": "node dist/server.js",
-    "build": "tsc",
+    "build": "tsc && cp -r src/utils/emails/logos dist/utils/emails/logos",
     "lint": "eslint . --ext .ts --fix",
     "format": "prettier --write .",
     "prepare": "husky",

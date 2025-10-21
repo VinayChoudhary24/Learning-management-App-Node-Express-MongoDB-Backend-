@@ -51,13 +51,18 @@ export const createNewUser = async (req: Request, res: Response, next: NextFunct
 
     await sendToken(newUser, res, 201);
 
-    setImmediate(() => {
-      userEventEmitter.emit('user.created', {
-        user: newUser,
-        ipAddress: req.headers['x-app-ip'] || req.headers['x-client-ip'] || req.ip || '',
-        userAgent: req.headers['user-agent'] || req.headers['x-client'] || '',
-      });
-    });
+    // setImmediate(() => {
+    //   userEventEmitter.emit('user.created', {
+    //     user: newUser,
+    //     ipAddress: req.headers['x-app-ip'] || req.headers['x-client-ip'] || req.ip || '',
+    //     userAgent: req.headers['user-agent'] || req.headers['x-client'] || '',
+    //   });
+    // });
+    try {
+      await sendWelcomeEmail(newUser);
+    } catch (emailError) {
+      errorLogger.error('Failed to send welcome email:', emailError);
+    }
   } catch (err) {
     return next(err);
   }
