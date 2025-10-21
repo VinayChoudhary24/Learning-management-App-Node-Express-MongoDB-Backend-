@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
-import { ErrorHandler } from '../../../utils/errors/errorHandler.util';
-import { sendToken } from '../../../utils/sendToken/sendToken.util';
+import { ErrorHandler } from '../../../utils/errors/errorHandler.util.js';
+import { sendToken } from '../../../utils/sendToken/sendToken.util.js';
 import EventEmitter from 'events';
 import {
   createNewUserRepo,
