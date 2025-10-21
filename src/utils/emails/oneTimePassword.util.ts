@@ -11,8 +11,8 @@ export const sendOtpEmail = async (email: any, otp: string) => {
   try {
     const transporter = nodemailer.createTransport({
       service: appConfig.smtp_service,
-      port: 465,
-      secure: true,
+      port: 587,
+      secure: false,
       auth: {
         user: appConfig.defi_smtp_mail,
         pass: appConfig.defi_smtp_mail_pass,
