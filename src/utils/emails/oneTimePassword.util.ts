@@ -11,6 +11,8 @@ export const sendOtpEmail = async (email: any, otp: string) => {
   try {
     const transporter = nodemailer.createTransport({
       service: appConfig.smtp_service,
+      port: 465,
+      secure: true,
       auth: {
         user: appConfig.defi_smtp_mail,
         pass: appConfig.defi_smtp_mail_pass,
@@ -116,7 +118,7 @@ export const sendOtpEmail = async (email: any, otp: string) => {
       attachments: [
         {
           filename: 'letter-d.png',
-          path: path.join(__dirname, '../../../src/utils/emails/logos/letter-d.png'),
+          path: path.join(__dirname, 'logos/letter-d.png'),
           cid: 'defiLogo',
         },
       ],
