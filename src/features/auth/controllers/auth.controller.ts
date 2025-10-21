@@ -160,6 +160,7 @@ export const userGoogleLogin = async (req: Request, res: Response, next: NextFun
     }
   } catch (err) {
     // return next(err);
+    console.log('Google-Auth-Err', err);
     const frontendUrl = appConfig.frontendURL || process.env.FRONTEND_URL;
     return res.redirect(
       `${frontendUrl}/auth/google/oauth2/result?error=Google Authentication failed`,

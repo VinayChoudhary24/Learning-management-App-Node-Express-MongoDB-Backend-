@@ -69,9 +69,16 @@ const userSchema = new mongoose.Schema(
         'Phone number is required',
       ],
       validate: {
-        validator: validator.isMobilePhone,
+        validator: function (this: any, value: string) {
+          if (this.authProvider === 'local') {
+            return require('validator').isMobilePhone(value);
+          }
+          return true; // skip validation for OAuth users
+        },
         message: 'Please enter a valid phone number',
       },
+      unique: true, // still want unique phones for local users
+      sparse: true,
     },
     email: {
       type: String,
@@ -246,7 +253,7 @@ userSchema.methods.getResetPasswordToken = async function () {
 };
 
 // Indexes for performance
-userSchema.index({ phone: 1 }, { unique: true });
+// userSchema.index({ phone: 1 });
 userSchema.index({ email: 1 }, { unique: true });
 userSchema.index({ status: 1 });
 userSchema.index({ role: 1 });
