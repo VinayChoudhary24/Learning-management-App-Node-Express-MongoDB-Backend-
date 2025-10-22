@@ -58,10 +58,8 @@ export const createNewUser = async (req: Request, res: Response, next: NextFunct
     //     userAgent: req.headers['user-agent'] || req.headers['x-client'] || '',
     //   });
     // });
-    try {
+    if (newUser) {
       await sendWelcomeEmail(newUser);
-    } catch (emailError) {
-      errorLogger.error('Failed to send welcome email:', emailError);
     }
   } catch (err) {
     return next(err);

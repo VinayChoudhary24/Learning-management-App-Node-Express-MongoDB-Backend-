@@ -24,10 +24,12 @@ export const errorHandlerMiddleware: any = (
 
   // Mongoose Validation Error
   if (err instanceof mongoose.Error.ValidationError) {
-    // console.error("Mongoose-Validation Error11111:", err);
+    // Extract the first field error message (or all if you want)
+    const messages = Object.values(err.errors).map((e) => e.message);
+    // console.error('Mongoose-Validation Error11111:', messages);
     return res.status(400).json({
       success: false,
-      message: err.message,
+      message: messages[0] || 'Validation failed.',
     });
   }
 
