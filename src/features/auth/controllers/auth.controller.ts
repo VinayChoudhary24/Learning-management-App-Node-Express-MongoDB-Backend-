@@ -151,13 +151,16 @@ export const userGoogleLogin = async (req: Request, res: Response, next: NextFun
       const token = await getToken(user);
       res.redirect(`${frontendUrl}/auth/google/oauth2/result?token=${token}`);
 
-      setImmediate(() => {
-        userEventEmitter.emit('user.created', {
-          user: user,
-          ipAddress: req.headers['x-app-ip'] || req.headers['x-client-ip'] || req.ip || '',
-          userAgent: req.headers['user-agent'] || req.headers['x-client'] || '',
-        });
-      });
+      if (user) {
+        await sendWelcomeEmail(user);
+      }
+      // setImmediate(() => {
+      //   userEventEmitter.emit('user.created', {
+      //     user: user,
+      //     ipAddress: req.headers['x-app-ip'] || req.headers['x-client-ip'] || req.ip || '',
+      //     userAgent: req.headers['user-agent'] || req.headers['x-client'] || '',
+      //   });
+      // });
     } else {
       const token = await getToken(user);
       res.redirect(`${frontendUrl}/auth/google/oauth2/result?token=${token}`);
